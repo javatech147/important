@@ -1,4 +1,4 @@
-package com.example.mobilenumbervalidation;
+package com.example.other;
 
 import org.junit.Test;
 
