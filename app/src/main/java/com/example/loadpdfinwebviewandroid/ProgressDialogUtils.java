@@ -8,14 +8,9 @@ import android.graphics.drawable.ColorDrawable;
 public class ProgressDialogUtils {
 
     public static ProgressDialog showProgressDialog(Context context) {
-        ProgressDialog progressDialog = new ProgressDialog(context);
+        ProgressDialog progressDialog = new ProgressDialog(context, R.style.ProgressDialogTheme);
         progressDialog.setTitle("Loading");
-
-        //progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
-        // Set the progress dialog background color transparent
         progressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        //progressDialog.setIndeterminate(false);
-
         return progressDialog;
     }
 }

@@ -66,7 +66,6 @@ public class DocumentViewerFragment extends Fragment {
                 } else {
                     progressDialog.dismiss();
                 }
-
             }
         });
     }
